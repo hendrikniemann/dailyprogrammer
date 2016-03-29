@@ -1,5 +1,5 @@
 import 'should';
-import challenge from './challenge259';
+import challenge from './index';
 
 describe('Challenge #259 [EASY] Clarence the Slow Typist', () => {
   it('should solve the example from the post', () => {

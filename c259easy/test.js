@@ -1,5 +1,5 @@
 import 'should';
-import { getPos, getDist, transitions, addPair } from './challenge259';
+import { getPos, getDist, transitions, addPair } from './index';
 
 describe('getPos', () => {
   it('should get the position correctly', () => {

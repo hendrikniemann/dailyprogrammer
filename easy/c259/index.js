@@ -23,7 +23,7 @@ export const transitions = arr => R.reduce(
 );
 
 // solve :: [String] -> Number
-const solve = R.pipe(R.map(getPos), transitions, R.map(R.apply(getDist)), R.reduce(R.add, 0));
+const solve = R.pipe(R.map(getPos), transitions, R.map(R.apply(getDist)), R.sum);
 
 // formatSolve :: String -> String
 const formatSolve = R.pipe(R.split(''), solve, x => round(x, 2), R.toString, R.concat(R.__, 'cm'));

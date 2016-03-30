@@ -8,7 +8,7 @@ test('Challenge #260 [Intermediate] Diagonal collision', t => {
   t.true(challenge260(3, 9) === 9);
 });
 
-test('Challange Inputs', t => {
+test('Challenge Inputs', t => {
   t.true(challenge260(3, 9) === 9);
   t.true(challenge260(21, 2) === 22);
   t.true(challenge260(168, 189) === 336);

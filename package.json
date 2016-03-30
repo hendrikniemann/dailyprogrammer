@@ -21,6 +21,10 @@
   "keywords": [
     "dailyprogrammer"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hendrikniemann/dailyprogrammer.git"
+  },
   "author": "hendrikniemann",
   "license": "MIT"
 }

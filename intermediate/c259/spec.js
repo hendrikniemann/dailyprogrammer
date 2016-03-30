@@ -2,6 +2,7 @@ import 'should';
 
 import challenge259 from '.';
 
+// https://www.reddit.com/4bmdwz
 describe('Challenge #259 [Intermediate] Mahjong Hands', () => {
   it('should solve the first sample input', () => {
     const input = `14

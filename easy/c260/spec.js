@@ -4,6 +4,7 @@ import challenge260 from './index';
 const click = 'button_clicked';
 const cycle = 'cycle_complete';
 
+// https://www.reddit.com/4cb7eh
 describe('Challenge #260 [EASY] Garage Door Opener', () => {
   const example = [click, cycle, click, click, click, click, click, cycle];
   const results = [

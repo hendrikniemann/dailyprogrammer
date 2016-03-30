@@ -4,13 +4,13 @@ import R from 'ramda';
 export const Tile = (suit, number) => ({ suit, number: parseInt(number, 10) });
 
 // isSet :: (Number, Number, Number) -> Boolean
-export const isSet = tripel => tripel[0] === tripel[1] && tripel[0] === tripel[2];
+export const isSet = ([x1, x2, x3]) => x1 === x2 && x1 === x3;
 
 // isPair :: (Number, Number) -> Boolean
 export const isPair = R.apply(R.equals);
 
 // isSequence :: (Number, Number, Number) -> Boolean
-export const isSequence = tripel => tripel[0] + 1 === tripel[1] && tripel[0] + 2 === tripel[2];
+export const isSequence = ([x1, x2, x3]) => x1 + 1 === x2 && x1 + 2 === x3;
 
 // isValid :: [Number] -> Boolean
 export const isValid = list => {

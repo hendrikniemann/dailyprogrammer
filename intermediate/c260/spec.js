@@ -6,9 +6,7 @@ import challenge260 from '.';
 test('Challenge #260 [Intermediate] Diagonal collision', t => {
   t.true(challenge260(5, 2) === 6);
   t.true(challenge260(3, 9) === 9);
-});
 
-test('Challenge Inputs', t => {
   t.true(challenge260(3, 9) === 9);
   t.true(challenge260(21, 2) === 22);
   t.true(challenge260(168, 189) === 336);

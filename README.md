@@ -7,8 +7,9 @@ These implementations do __not__ claim to be perfect by any means. They are much
 ### Solved Programming Challanges
 
 #### Easy
-- [Challenge #259 [EASY] Clarence the Slow Typist](https://github.com/hendrikniemann/dailyprogrammer/tree/master/easy/c259)
-- [Challenge #260 [EASY] Garage Door Opener](https://github.com/hendrikniemann/dailyprogrammer/tree/master/easy/c260)
+- [Challenge #259 [Easy] Clarence the Slow Typist](https://github.com/hendrikniemann/dailyprogrammer/tree/master/easy/c259)
+- [Challenge #260 [Easy] Garage Door Opener](https://github.com/hendrikniemann/dailyprogrammer/tree/master/easy/c260)
 
 #### Intermediate
-- [Challenge #259 [Intermediate] Mahjong Hands](https://github.com/hendrikniemann/dailyprogrammer/tree/master/intermediate/c260)
+- [Challenge #259 [Intermediate] Mahjong Hands](https://github.com/hendrikniemann/dailyprogrammer/tree/master/intermediate/c259)
+- [Challenge #260 [Intermediate] Diagonal collision Hands](https://github.com/hendrikniemann/dailyprogrammer/tree/master/intermediate/c260)

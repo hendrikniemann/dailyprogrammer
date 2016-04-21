@@ -8,8 +8,8 @@ test('isSumFifteen', t => {
 });
 
 test('missingLine', t => {
-  t.same(missingLine([[8, 1, 6], [3, 5, 7]]), [4, 9, 2]);
-  t.same(missingLine([[2, 7, 6], [8, 4, 3]]), [5, 4, 6]);
+  t.deepEqual(missingLine([[8, 1, 6], [3, 5, 7]]), [4, 9, 2]);
+  t.deepEqual(missingLine([[2, 7, 6], [8, 4, 3]]), [5, 4, 6]);
 });
 
 test('isPotetialMagicSquare', t => {

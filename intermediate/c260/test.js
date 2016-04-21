@@ -16,23 +16,23 @@ test('isNatural', t => {
 test('verticalNeighbours', t => {
   let res = vN([0.5, 1]);
 
-  t.same(res[0], [0, 0]);
-  t.same(res[1], [0, 1]);
+  t.deepEqual(res[0], [0, 0]);
+  t.deepEqual(res[1], [0, 1]);
 
   res = vN([2, 2]);
 
-  t.same(res[0], [1, 1]);
-  t.same(res[1], [2, 2]);
+  t.deepEqual(res[0], [1, 1]);
+  t.deepEqual(res[1], [2, 2]);
 });
 
 test('horizontalNeighbours', t => {
   let res = hN([2, 4.5]);
 
-  t.same(res[0], [1, 4]);
-  t.same(res[1], [2, 4]);
+  t.deepEqual(res[0], [1, 4]);
+  t.deepEqual(res[1], [2, 4]);
 
   res = hN([2, 2]);
 
-  t.same(res[0], [1, 1]);
-  t.same(res[1], [2, 2]);
+  t.deepEqual(res[0], [1, 1]);
+  t.deepEqual(res[1], [2, 2]);
 });

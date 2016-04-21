@@ -13,9 +13,7 @@
     "eslint-plugin-ava": "^1.4.0",
     "eslint-plugin-import": "^1.4.0",
     "lodash": "^4.6.1",
-    "mocha": "^2.4.5",
-    "ramda": "^0.20.1",
-    "should": "^8.2.2"
+    "ramda": "^0.20.1"
   },
   "devDependencies": {},
   "scripts": {

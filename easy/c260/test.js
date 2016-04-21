@@ -1,19 +1,17 @@
-import 'should';
+import test from 'ava';
 import { transition } from './index';
 
 const click = 'button_clicked';
 const cycle = 'cycle_complete';
 
-describe('transition', () => {
-  it('should reduce states correctly', () => {
-    transition('CLOSED', click).should.eql('OPENING');
-    transition('CLOSING', click).should.eql('STOPPED_WHILE_CLOSING');
-    transition('CLOSING', cycle).should.eql('CLOSED');
-    transition('STOPPED_WHILE_CLOSING', click).should.eql('OPENING');
-    transition('OPENING', click).should.eql('STOPPED_WHILE_OPENING');
-    transition('OPENING', cycle).should.eql('OPEN');
-    transition('OPEN', click).should.eql('CLOSING');
-    transition('STOPPED_WHILE_CLOSING', click).should.eql('OPENING');
-    transition('OPENING', cycle).should.eql('OPEN');
-  });
+test('transition', t => {
+  t.true(transition('CLOSED', click) === 'OPENING');
+  t.true(transition('CLOSING', click) === 'STOPPED_WHILE_CLOSING');
+  t.true(transition('CLOSING', cycle) === 'CLOSED');
+  t.true(transition('STOPPED_WHILE_CLOSING', click) === 'OPENING');
+  t.true(transition('OPENING', click) === 'STOPPED_WHILE_OPENING');
+  t.true(transition('OPENING', cycle) === 'OPEN');
+  t.true(transition('OPEN', click) === 'CLOSING');
+  t.true(transition('STOPPED_WHILE_CLOSING', click) === 'OPENING');
+  t.true(transition('OPENING', cycle) === 'OPEN');
 });

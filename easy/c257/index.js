@@ -24,9 +24,17 @@ export const isInSpan = R.curry((span, year) => L.inRange(span[0], span[1] + 1, 
 // solve :: [President] -> Number
 const solve = presidents => {
   const spans = R.map(toLifespan, presidents);
-  const minYear = L.minBy(R.lensIndex(0), spans);
+  const minYear = L.min(R.map(R.head, spans));
   const years = R.range(minYear, currYear + 1);
-  R.map(year => R.reduce(R.when(isInSpan(R.__, ))), years);
+
+  // living :: Number -> Number
+  const living = year => R.reduce(R.ifElse(
+    (_, span) => isInSpan(span, year),
+    R.inc,
+    R.identity
+  ), 0, spans);
+
+  return L.maxBy(R.prop('living'), R.map(R.applySpec({ year: R.identity, living }), years)).year;
 };
 
 export default solve;

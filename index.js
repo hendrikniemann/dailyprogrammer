@@ -37,6 +37,7 @@ fs.writeFileSync(path.join(BASE_PATH, 'index.js'), 'import R from \'ramda\';\n')
 fs.writeFileSync(path.join(BASE_PATH, 'test.js'), 'import test from \'ava\';\n');
 fs.writeFileSync(
   path.join(BASE_PATH, 'spec.js'),
-  'import test from \'ava\';\n\ntest(\'Challenge #' + number + ' [' +
+  'import test from \'ava\';\n\nimport challenge from \'.\';\n\n// https://www.reddit.com/' +
+    'test(\'Challenge #' + number + ' [' +
     capitalise(difficulty) + ']\', t => {\n\n});\n'
 );

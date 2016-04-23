@@ -38,5 +38,5 @@ fs.writeFileSync(path.join(BASE_PATH, 'test.js'), 'import test from \'ava\';\n')
 fs.writeFileSync(
   path.join(BASE_PATH, 'spec.js'),
   'import test from \'ava\';\n\ntest(\'Challenge #' + number + ' [' +
-    capitalise(difficulty) + ']\', () => {\n\n});\n'
+    capitalise(difficulty) + ']\', t => {\n\n});\n'
 );

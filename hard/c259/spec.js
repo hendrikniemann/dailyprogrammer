@@ -2,7 +2,8 @@ import test from 'ava';
 
 import challenge, { readNos } from '.';
 
-test('Challenge #259 [Hard] Diagonal collision', t => {
+// https://www.reddit.com/4bwibm/
+test('Challenge #259 [Hard] Operator number system', t => {
   t.true(readNos('10020') === 21);
   const res = challenge(7);
 

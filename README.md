@@ -19,4 +19,4 @@ These implementations do __not__ claim to be perfect by any means. They are much
 - [Challenge #260 [Intermediate] Diagonal collision Hands](https://github.com/hendrikniemann/dailyprogrammer/tree/master/intermediate/c260)
 
 #### Hard
-- - [Challenge #259 [Hard] Operator number system](https://github.com/hendrikniemann/dailyprogrammer/tree/master/hard/c259)
+- [Challenge #259 [Hard] Operator number system](https://github.com/hendrikniemann/dailyprogrammer/tree/master/hard/c259)

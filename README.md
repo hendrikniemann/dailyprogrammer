@@ -13,6 +13,7 @@ These implementations do __not__ claim to be perfect by any means. They are much
 - [Challenge #260 [Easy] Garage Door Opener](https://github.com/hendrikniemann/dailyprogrammer/tree/master/easy/c260)
 - [Challenge #261 [Easy] verifying 3x3 magic squares](https://github.com/hendrikniemann/dailyprogrammer/tree/master/easy/c261)
 - [Challenge #263 [Easy] Calculating Shannon Entropy of a String](https://github.com/hendrikniemann/dailyprogrammer/tree/master/easy/c263)
+- [Challenge #267 [Easy] Calculating Shannon Entropy of a String](https://github.com/hendrikniemann/dailyprogrammer/tree/master/easy/c267)
 
 #### Intermediate
 - [Challenge #259 [Intermediate] Mahjong Hands](https://github.com/hendrikniemann/dailyprogrammer/tree/master/intermediate/c259)

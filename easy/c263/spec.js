@@ -1,7 +1,7 @@
 import test from 'ava';
 import challenge from '.';
 
-const cut = int => int.toString().substr(0, 11);
+const cut = double => double.toString().substr(0, 11);
 
 // https://www.reddit.com/4fc896/
 test('Challenge #263 [Easy] Calculating Shannon Entropy of a String', t => {

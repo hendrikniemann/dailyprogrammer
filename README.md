@@ -15,6 +15,7 @@ These implementations do __not__ claim to be perfect by any means. They are much
 - [Challenge #263 [Easy] Calculating Shannon Entropy of a String](https://github.com/hendrikniemann/dailyprogrammer/tree/master/easy/c263)
 - [Challenge #266 [Easy] Basic Graph Statistics: Node Degrees](https://github.com/hendrikniemann/dailyprogrammer/tree/master/easy/c266)
 - [Challenge #267 [Easy] All the places your dog didn't win](https://github.com/hendrikniemann/dailyprogrammer/tree/master/easy/c267)
+- [Challenge #269 [Easy] BASIC Formatting](https://github.com/hendrikniemann/dailyprogrammer/tree/master/easy/c269)
 
 #### Intermediate
 - [Challenge #259 [Intermediate] Mahjong Hands](https://github.com/hendrikniemann/dailyprogrammer/tree/master/intermediate/c259)

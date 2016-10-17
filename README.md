@@ -17,6 +17,7 @@ These implementations do __not__ claim to be perfect by any means. They are much
 - [Challenge #267 [Easy] All the places your dog didn't win](https://github.com/hendrikniemann/dailyprogrammer/tree/master/easy/c267)
 - [Challenge #269 [Easy] BASIC Formatting](https://github.com/hendrikniemann/dailyprogrammer/tree/master/easy/c269)
 - [Challenge #270 [Easy] Transpose the input text](https://github.com/hendrikniemann/dailyprogrammer/tree/master/easy/c270)
+- [Challenge #287 [Easy] Kaprekar's Routine text](https://github.com/hendrikniemann/dailyprogrammer/tree/master/easy/c287)
 
 #### Intermediate
 - [Challenge #259 [Intermediate] Mahjong Hands](https://github.com/hendrikniemann/dailyprogrammer/tree/master/intermediate/c259)
